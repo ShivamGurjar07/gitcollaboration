@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoe Collection</title>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  .header {
+    background-color: #000;
+    padding: 20px;
+    color: white;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .logo h1 {
+    color: #ff0000;
+  }
+  .navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .navbar .menu li {
+    display: inline-block;
+  }
+  .navbar .menu a {
+    color: white;
+    text-decoration: none;
+  }
+  .right-options a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .products {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+  }
+  .product {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .product h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .product p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Reebok</h1>
+      </div>
+      <ul class="menu">
+        <li><a href="#">New</a></li>
+        <li><a href="#">Icons</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Classic</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+      <div class="right-options">
+        <a href="#">Search</a>
+        <a href="#">Stores</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Log In</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="IMG1.png" alt="Reebok Women NFX Trainer">
+      <h3>Reebok Women NFX Trainer</h3>
+      <p>₹7,599</p>
+    </div>
+    <div class="product">
+      <img src="IMG2.png" alt="Reebok Women Club C 85 W">
+      <h3>Reebok Women Club C 85 W</h3>
+      <p>₹6,999</p>
+    </div>
+    <div class="product">
+      <img src="IMG3.png" alt="Reebok Women Energen Plus 2">
+      <h3>Reebok Women Energen Plus 2</h3>
+      <p>₹6,999</p>
+    </div>
+    <div class="product">
+      <img src="IMG4.png" alt="Reebok Unisex Classic Leather">
+      <h3>Reebok Unisex Classic Leather</h3>
+      <p>₹7,999</p>
+    </div>
+  </section>
+
+</body>
+</html>
